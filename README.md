@@ -15,6 +15,7 @@
 ![image5](https://user-images.githubusercontent.com/18327523/44656284-4de0d880-a9c6-11e8-9c9c-cc8f27749bb2.png)
 
 # Node Installation 
- To see if Node is installed, open the Windows Command Prompt, Powershell or a similar command line tool, and type node -v. This should    print a version number.
- To see if NPM is installed, type npm -v in Terminal. This should print NPM’s version number
- If Node is not installed,Click here to install  https://nodejs.org/en/download/
+1.  To see if Node is installed, open the Windows Command Prompt, Powershell or a similar command line tool, and type node -v. This should    print a version number.
+2.  To see if NPM is installed, type npm -v in Terminal. This should print NPM’s version number.
+3.  If Node is not installed,Click here to install  https://nodejs.org/en/download/
+
