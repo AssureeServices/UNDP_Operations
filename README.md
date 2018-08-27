@@ -14,7 +14,7 @@
 ![image4](https://user-images.githubusercontent.com/18327523/44656283-4de0d880-a9c6-11e8-9124-42816bdb9237.png)
 ![image5](https://user-images.githubusercontent.com/18327523/44656284-4de0d880-a9c6-11e8-9c9c-cc8f27749bb2.png)
 
-# Installation
- Make sure you have Node and NPM installed.If Node is not installed,Click here to install 
- https://nodejs.org/en/download/
- 
+# Node Installation 
+ To see if Node is installed, open the Windows Command Prompt, Powershell or a similar command line tool, and type node -v. This should    print a version number.
+ To see if NPM is installed, type npm -v in Terminal. This should print NPM’s version number
+ If Node is not installed,Click here to install  https://nodejs.org/en/download/
