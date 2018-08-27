@@ -1,2 +1,8 @@
-# playground-capabilities-template
-Template project for using the capabilities API with Qlik Playground
+# United Nations Department of Peacekeeping Operations
+
+
+# Table of Contents
+* [Screenshot](#screenshot)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Author](#author)
