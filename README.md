@@ -13,3 +13,8 @@
 ![image3](https://user-images.githubusercontent.com/18327523/44656447-e6775880-a9c6-11e8-94c3-93981b731325.png)
 ![image4](https://user-images.githubusercontent.com/18327523/44656283-4de0d880-a9c6-11e8-9124-42816bdb9237.png)
 ![image5](https://user-images.githubusercontent.com/18327523/44656284-4de0d880-a9c6-11e8-9c9c-cc8f27749bb2.png)
+
+# Installation
+ Make sure you have Node and NPM installed.If Node is not installed,Click here to install 
+ https://nodejs.org/en/download/
+ 
