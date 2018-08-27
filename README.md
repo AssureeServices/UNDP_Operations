@@ -1,5 +1,10 @@
 # United Nations Department of Peacekeeping Operations
-
+        This application gets information from the qlik palyground and creating a appropriate visualization.It will display the information about Democratic Republic of Congo.It analyzed the primary and secondary actors involved in incidents.  
+# Key Terms
+* Node JS
+* Qlik Capabilities API 
+* Qlik Playground
+* D3 JS
 
 # Table of Contents
 * [Node Installation](#nodeinstallation)
