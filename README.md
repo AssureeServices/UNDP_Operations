@@ -1,4 +1,5 @@
 # United Nations Department of Peacekeeping Operations
+That was awesome, so I started search for articles describing implementation experience. The search showed nice article by Jim Vallandingham [Building a Bubble Cloud](http://vallandingham.me/building_a_bubble_cloud.html) and I started looking at the implementation proposed. Essentially it was not intended to build the same interactive page, but what was offered completely satisfied me and I decided to use it in my pet project for easy-to-do keyword extraction, which I hope will be released shortly. 
         This application gets information from the qlik palyground and creating a appropriate visualization.It will display the information about Democratic Republic of Congo.It analyzed the primary and secondary actors involved in incidents.  
 # Keys
 * Node JS
