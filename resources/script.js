@@ -198,9 +198,27 @@ function main() {
           })
           ;  
 
+      node.on("click", function(d) {       
+        app.field('side_a').selectMatch(d.data.Name, true);
+      });
+
+      node.on("mouseover", function(d) {       
+        d3.select(this).select("circle").transition()
+        .duration(750)
+        .attr("r", (d.r * 1.2));
+       
+      });
+      node.on("mouseout", function(d) {       
+        d3.select(this).select("circle").transition()
+        .duration(750)
+        .attr("r", d.r);
+      });
+
       node.append("title")
           .text(function(d) {
-              return d.data.Name + "\n"+ d.data.side_b+"\n"+ d.data.Count;
+              return "side_a: "+ d.data.Name + "\n"+
+                     "side_b: "+ d.data.side_b+"\n"+ 
+                     "Incidents: "+ d.data.Count;
           });
 
       node.append("circle")
@@ -209,7 +227,9 @@ function main() {
           })
           .style("fill", function(d,i) {
               return color(i);
-          });
+          })
+          .style("cursor", "hand")
+          ;
 
       node.append("text")
           .attr("dy", ".2em")
@@ -217,6 +237,7 @@ function main() {
           .text(function(d) {
               return d.data.Name.substring(0, d.r / 3);
           })
+          .style("cursor", "hand")
           .attr("font-family", "sans-serif")
           .attr("font-size", function(d){
               return d.r/5;
@@ -238,15 +259,9 @@ function main() {
       d3.select(self.frameElement)
           .style("height", diameter + "px");
 
+      
 
-        $('svg circle').tipsy({ 
-            gravity: 'w', 
-            html: true, 
-            title: function() {
-              //var d = this.__data__, c = colors(d.i);
-              return 'Hi there! My color is '; 
-            }
-          });
+       
 
     }
 
