@@ -2,8 +2,8 @@
 
 
 # Table of Contents
-* [Node Installation](#node installation)
-* [Run Application](#run application)
+* [Node Installation](#nodeinstallation)
+* [Run Application](#runapplication)
 * [Screenshot](#screenshot)
 * [Author](#author)
 
